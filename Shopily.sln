@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopily.Api", "Shopily.Api\Shopily.Api.csproj", "{C3F33DAE-4D2C-4E1D-9B7C-7C43C44D0B5A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "shopily.client", "Shopily.Client\shopily.client.esproj", "{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{C3F33DAE-4D2C-4E1D-9B7C-7C43C44D0B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3F33DAE-4D2C-4E1D-9B7C-7C43C44D0B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3F33DAE-4D2C-4E1D-9B7C-7C43C44D0B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CBCC9C-37AA-DF8C-4CA0-32023D4AF35C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

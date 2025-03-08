@@ -1,7 +1,13 @@
-﻿namespace Shopily.Api.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Shopily.Api.Models
 {
-    public class User
+    public class User: IdentityUser
     {
-        public Guid Id { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? Role { get; set; }
+        
     }
+    
 }
