@@ -22,7 +22,7 @@ namespace Shopily.Api.Data
         DbSet<Shipping> Shippings { get; set; }
 
 
-
+        //TODO: Add relationships for models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
